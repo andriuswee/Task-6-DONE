@@ -20,7 +20,7 @@ const users = [
   { id: "9", name: "Daniel Cane", age: 51 },
 ];
 
-//1. getUserAverageAge
+//1. getUserAverageAgeDone
 
 const arrLength = users.length;
 const getUserAverageAge = users.reduce((totalAge, current) => {
@@ -28,7 +28,7 @@ const getUserAverageAge = users.reduce((totalAge, current) => {
 }, 0);
 console.log(getUserAverageAge);
 
-//2. getUsersNames
+//2. getUsersNamesDone
 
 const getUserNames = [];
 users.forEach((users) => getUserNames.push(users.name));
